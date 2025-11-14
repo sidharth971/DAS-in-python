@@ -18,7 +18,7 @@ def binary_search(arr, target):
     return -1
 
 
-print(binary_search(arr, 12))
+print('BS', binary_search(arr, 12))
 
 
 def binary_search_recursive(arr, left, right, target):
@@ -33,7 +33,7 @@ def binary_search_recursive(arr, left, right, target):
         return binary_search_recursive(arr, mid, right, target)
 
 
-print(binary_search(arr, 8))
+print('Recursion', binary_search(arr, 8))
 
 
 def first_occurance(arr, target):
@@ -43,7 +43,7 @@ def first_occurance(arr, target):
         mid = (left + right) // 2
         if target == arr[mid]:
             result = mid
-            left = mid + 1  # First or last occurance depends on here
+            right = mid - 1  # First or last occurance depends on here
         elif target > arr[mid]:
             left = mid + 1
         else:
@@ -52,7 +52,7 @@ def first_occurance(arr, target):
     return result
 
 
-print(first_occurance([1, 2, 2, 2, 3, 4], 2))
+print('First or last occurance', first_occurance([1, 2, 2, 2, 3, 4], 2))
 
 
 def search_insert(arr, element):
@@ -69,4 +69,4 @@ def search_insert(arr, element):
     return arr
 
 
-print(search_insert([1, 3, 5, 6], 4))
+print('Insert at correct position', search_insert([1, 3, 5, 6], 4))
