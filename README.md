@@ -1,29 +1,29 @@
-# DAS-in-python
+# DAS-in-python 🚀
 
+This repository contains implementations of Data Structures and Algorithms (DSA) using Python. It is designed to strengthen problem-solving skills and prepare for coding interviews and competitive programming.
 
 ---
 
-# 🔥 If you want more advanced (recommended for you)
+## 📌 Topics Covered
 
-Since you are into **AI + Full Stack**, use this 👇
+### 🧮 Data Structures
+- Arrays
+- Strings
+- Linked List
+- Stack
+- Queue
+- Hashing
+- Trees (Binary Tree, BST)
+- Graphs
 
-```md id="readme2"
-# DAS-in-python 🚀
+### ⚡ Algorithms
+- Sorting (Bubble, Merge, Quick)
+- Searching (Linear, Binary Search)
+- Recursion & Backtracking
+- Dynamic Programming
+- Greedy Algorithms
+- Graph Algorithms (BFS, DFS)
 
-A Python-based project focused on, and scalable data processing workflows.
+---
 
-## 🔍 Key Highlights
-- Data preprocessing using Pandas
-- Exploratory Data Analysis (EDA)
-- Visualization using Matplotlib & Seaborn
-- Scalable and modular code structure
-
-## 🧠 Skills Demonstrated
-- Python Programming
-- Problem Solving
-
-## 🚀 Getting Started
-
-### Clone the repository
-```bash
-git clone https://github.com/your-username/DAS-in-python.git
+## 📂 Project Structure
